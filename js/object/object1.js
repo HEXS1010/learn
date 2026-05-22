@@ -16,3 +16,7 @@ var myCar = {
 var yourCar = {};
 yourCar["brand"] = "Toyota";
 yourCar["year"] = 2012;
+
+// sama seperti associative-array, kita mengakses properti dengan key dalam kurung siku atau dot-notation
+console.log(yourCar.brand);
+console.log(yourCar['brand']);
