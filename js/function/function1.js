@@ -8,3 +8,11 @@ function sum(a,b) {
 
 // eksekusi function, tampilkan hasil di console
 console.log(sum(1,2));
+
+
+// karena function juga merupakan sebuah data, kita bisa menulis kode diatas
+// sebagai sebuah variabel yang berisi function tanpa nama (anonim):
+
+var sum = function(a, b) {
+    return a + b;
+};
