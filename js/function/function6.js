@@ -17,3 +17,21 @@ function fn_B() {
 
 //kita ingin mengirim function bukan hasil eksekusinya 
 add(fn_A, fn_B);
+
+
+
+// callback juga bisa diimplementasikan dengan function anonim 
+function add(a, b) {
+    var sum = a() + b();
+    console.log(sum);
+}
+
+function fn_A() {
+    return 1;
+}
+
+//fn_B diganti oleh function anonim
+add(fn_A, function() {
+    return 2;
+});
+// function fn_B diganti oleh function anonim
