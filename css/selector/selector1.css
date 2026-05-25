@@ -1,0 +1,36 @@
+/* selector element */
+h1 {
+    color: blue;
+}
+
+/* selector ID */
+#header {
+    background-color: gray;
+}
+
+/* selector class */
+.teks {
+    font-size: 17px;
+}
+
+/* selector universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* selector group */
+h1, h2 {
+    color: red;
+}
+
+/* selector descendant */
+div p {
+    font-weight: bold;
+}
+
+/* selector child */
+div > ul {
+    list-style: none;
+}
