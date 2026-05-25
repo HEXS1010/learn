@@ -10,4 +10,4 @@ function fn_A() {
 var myFunc = fn_A();//hello
 
 //myFunc sekarang berisi function yang //dikirim kembali oleh fn_A 
-myFunc();//wor;d
+myFunc();//world
