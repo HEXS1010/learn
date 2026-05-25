@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 7px 5px;
+}
+
+.box1 {
+    border: 5px solid black;
+}
+
+.box2 {
+    border: 5px dashed black;
+}
+
+.box3 {
+    border: 5px dotted black;
+}
+
+.box4 {
+    border: 10px double black;
+}
+
+.box5 {
+    border: 10px groove black;
+}
+
+.box6 {
+    border: 10px ridge black;
+}
+
+.box7 {
+    background-color: aquamarine;
+    border: 20px inset red;
+    padding: 10px;
+    margin: 25px;
+}
+
+.box8 {
+    border: 20px outset blue;
+    margin: 0 30rem;
+}
