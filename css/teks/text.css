@@ -1,0 +1,41 @@
+/* teks */
+
+/* font family */
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* font size */
+h2 {
+    font-size: 3px;
+}
+
+/* font weight */
+h3 {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 300;
+}
+
+/* text align */
+/* 
+    left: rata kiri
+    right: rata kanan
+    center: tengah
+    justify: rata kanan dan kiri
+*/
+
+h4 {
+    text-align: center; /* dan seterusnya */ 
+}
+
+p {
+    text-align: justify;
+}
+
+/* line height */
+P1 {
+    line-height: 1.5; /* jadi misalnya ada paragraf 1 dan 2 mereka memiliki jarak atasnya  */
+}
