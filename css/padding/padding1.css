@@ -1,0 +1,22 @@
+/* padding */
+/* mengatur jarak dalam content bukan luar content */
+
+/* sama seperti margin bacanya tapi beda area aja */
+.div1 h1 {
+    padding: 10px; 
+} 
+
+/* atas bawah */
+.div2 h2 {
+    padding: 20px 10px;
+}
+
+/* atas, kiri-kanan, bawah */
+.div3 h3 {
+    padding: 10px 20px 30px;
+}
+
+/* atas, kanan, bawah, kiri */
+.div4 h4 {
+    padding: 10px 20px 30px 40px;
+}
