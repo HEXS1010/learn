@@ -1,0 +1,13 @@
+.box1 {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: chocolate;
+}
+
+.box1 h1 {
+    align-items: center;
+    text-align: center;
+}
