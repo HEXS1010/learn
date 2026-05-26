@@ -20,7 +20,13 @@
     margin: 10px 20px 30px;
 }
 
-/* kalau yang terakhir ini mengatur masing masing arah, atas sendriri, bawah, kiri, dan kanan */
+/* kalau yang terakhir ini mengatur masing masing arah, atas sendriri, kanan, bawah, dan kiri */
 .div4 {
     margin: 10px 20px 15px 25px;
+}
+
+/* kita juga menggunakan sebuah properti margin auto untuk mangetur 
+secera otomatis, sehingga elemen HTML akan berada ditengah secara horizontal */
+.div5 {
+    margin: 0 auto;
 }
