@@ -1,0 +1,27 @@
+/* link */
+
+/* color */
+a {
+    color: blue;
+}
+
+/* teks decoration */
+a {
+    text-decoration: underline; /* atau none biar hilang garis bawahnya */
+}
+
+/* hover */
+a:hover {
+    color: red;
+    text-decoration: none; /* saat di dekatkan sama cursor akan berubah warna jadi merah */
+}
+
+/* visite */
+a:visited {
+    color: purple; /* jadi saat link kita sudah klik dan kembali akan udah berubah warna artinya udah kita kunjungi */
+}
+
+/* active */
+a:active {
+    color: green;
+}
