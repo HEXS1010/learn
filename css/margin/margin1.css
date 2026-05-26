@@ -1,0 +1,26 @@
+/* margin */
+/* mengatur jarak antar element yang satu dengan yang lain */
+
+/* disini artinya tiap atas, bawah, kiri, kanan div itu memiliki jarak 10px */
+.div1 {
+    margin: 10px; 
+}
+
+/* margin juga kita bisa atur sendiri sendiri jarak antara elemennya 
+   dengan ukuran yang berbeda beda disebut(shorthand)
+*/
+
+/* dalam kasus ini kita mengatur atas bawah 10px, dan kiri kanan 20px */
+.div2 {
+    margin: 10px 20px;
+}
+
+/* kalau yang ini kita mengatur atasnya 10px, kiri kanannya 20px, dan bawahnya 30px */
+.div3 {
+    margin: 10px 20px 30px;
+}
+
+/* kalau yang terakhir ini mengatur masing masing arah, atas sendriri, bawah, kiri, dan kanan */
+.div4 {
+    margin: 10px 20px 15px 25px;
+}
