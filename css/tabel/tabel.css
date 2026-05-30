@@ -4,3 +4,10 @@
 table {
   border-collapse: collapse;
 }
+
+
+/* boeder-spacing */
+/* jarak antar sel pada tabel akan diatur 5 px */
+table {
+    border-spacing: 5px;
+}
