@@ -10,3 +10,16 @@ ul {
 ol {
     list-style-type: decimal;
 }
+
+
+/* list-style-image */
+/* hasilnya akan muncul icon disamping list */
+ul {
+    list-style-image: url("icon.png");
+}
+
+/* list-style-position */
+/* hasilnya adalah jika kamu punya tulisan panjang maka dia akan mengikuti patokan simbol */
+ul {
+    list-style-position: inside;
+}
