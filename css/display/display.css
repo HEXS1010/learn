@@ -2,10 +2,18 @@
 
 /* block */
 /* mengatur element atau text sejajar kebawah */
-div {
+.box1 {
     display: block;
-    width: 200px;
+    width: 700px;
     height: 200px;
     background-color: aqua;
 }
 
+/* inline */
+/* mengatur sifat element */
+a {
+    display: inline;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: gray;
+}
