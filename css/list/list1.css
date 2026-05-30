@@ -1,0 +1,12 @@
+/* list */
+
+/* list-style-type */
+/* pada list tidak berurutan (ul) menggunakan simbol kotak */
+ul {
+    list-style-type: square;
+}
+
+/* pada list berurutan (ol) menggunakan nomor desimal */
+ol {
+    list-style-type: decimal;
+}
