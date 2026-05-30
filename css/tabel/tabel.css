@@ -11,3 +11,12 @@ table {
 table {
     border-spacing: 5px;
 }
+
+/* background-color */
+td {
+    background-color: antiquewhite;
+}
+
+tr {
+    background-color: gray;
+}
