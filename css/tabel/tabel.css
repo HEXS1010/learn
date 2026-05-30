@@ -22,3 +22,10 @@ tr {
 }
 
 /* teks-align */
+td {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+}
