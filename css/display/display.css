@@ -17,3 +17,8 @@ a {
     border: 1px solid black;
     background-color: gray;
 }
+
+/* none */
+.logo {
+    display: none;
+}
