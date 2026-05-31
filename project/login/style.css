@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #f6f67c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.login {
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 150px auto;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
