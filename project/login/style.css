@@ -75,3 +75,19 @@ body {
     border: 2px solid black;
 }
 
+.log-bottom {
+    width: 100%;
+    height: 100%;
+    background-color: cadetblue;
+    border: 2px solid black;
+    box-shadow: 6px 5px;
+    padding: 10px;
+    margin: 40px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.log-bottom:hover {
+    box-shadow: none;
+    background-color:goldenrod;
+}
