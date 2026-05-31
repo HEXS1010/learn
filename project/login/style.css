@@ -41,3 +41,37 @@ body {
     padding: 10px;
     font-size: 15px;
 }
+
+.log-form {
+    display: flex;
+    padding: 40px 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lab-email {
+    align-items: flex-start;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.in-email {
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.lab-pass {
+    align-items: flex-end;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.in-pass {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
