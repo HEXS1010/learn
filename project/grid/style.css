@@ -24,6 +24,7 @@ body {
 }
 
 .box1 img {
+  border-radius: 20px;
   border: 2px solid black;
 }
 
@@ -38,6 +39,7 @@ body {
 }
 
 .box2 img {
+  border-radius: 20px;
   border: 2px solid black;
 }
 
@@ -52,6 +54,7 @@ body {
 }
 
 .box3 img {
+  border-radius: 20px;
   border: 2px solid black;
 }
 
