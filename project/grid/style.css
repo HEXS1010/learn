@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.keunggulan {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.box1 {
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+}
+
+.box1 img {
+  border: 2px solid black;
+}
+
+.box1 p {
+  padding: 7px 5px;
+}
+
+.box2 {
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+}
+
+.box2 img {
+  border: 2px solid black;
+}
+
+.box2 p {
+  padding: 7px 5px;
+}
+
+.box3 {
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+}
+
+.box3 img {
+  border: 2px solid black;
+}
+
+.box3 p {
+  padding: 7px 5px;
+}
+
+.keunggulan h1 {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px 2px;
+}
+
+.keunggulan p {
+  /* border: 2px solid black; */
+  font-size: 15px;
+  margin: 0 50px;
+}
