@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table</title>
+  </head>
+  <body>
+    <!-- struktur dasar -->
+    <table border="1">
+      <tr>
+        <td>nama</td>
+        <td>umur</td>
+      </tr>
+      <tr>
+        <td>ali</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>siti</td>
+        <td>22</td>
+      </tr>
+    </table>
+    <!-- tr table row: baris dalam tabel -->
+    <!-- td table data: sel/kolom untuk data -->
+
+    <!-- menambahkan judul kolom dengan th -->
+    <table border="1">
+      <tr>
+        <th>nama</th>
+        <th>umur</th>
+      </tr>
+      <tr>
+        <td>ali</td>
+        <td>20</td>
+      </tr>
+    </table>
+    <!-- dengan menggunakan th jadinya judul otomatis bold karena sebagai patokan itu adalah judul -->
+
+    <!-- atribut penting dalam tabel -->
+    <table border="1">
+      <tr>
+        <th colspan="2">data siswa</th>
+      </tr>
+      <tr>
+        <td>nama</td>
+        <td>ali</td>
+      </tr>
+    </table>
+    <!-- colspan digunakan untuk menggabung 2 kolom atau lebih -->
+
+    <table border="1">
+      <tr>
+        <td rowspan="2">ali</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>jakarta</td>
+      </tr>
+    </table>
+    <!-- kalau ini kebalikannya artinya kolom mengambil 2 baris atau lebih -->
+  </body>
+</html>
