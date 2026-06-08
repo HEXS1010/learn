@@ -73,3 +73,14 @@ if (ujian >= 90) {
 }
 
 console.log(hasil);
+
+
+// ternary operator
+// untuk menulis singkat if else dengan cara (condition) ? expression1 : expression2
+
+// contoh
+let Age = 17;
+let angka = (Age < 18) ? "minor" : "adult";
+
+console.log(angka);
+// ini artinya dia akan mengeksekusi nilai true baru false, tanda tanya itu kita anggap sebagia pertanyaan baru di sebelah kananya itu jawabannya seperti itu
