@@ -1,0 +1,15 @@
+/* position relative */
+/* artinya dia tetap di tempat yang sama dan tempat nya masih ada walaupun element tersebut pindah */
+
+p {
+  position: relative;
+  top: 100px;
+  background-color: aqua;
+}
+
+.position-relative {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  background-color: coral;
+}
