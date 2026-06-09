@@ -1,0 +1,14 @@
+/* absolute position */
+/* artinya apa bila positionnya abosolute maka tempat element itu akan tegantikan atau bisa dibilang element dibawahnya naik, dan element yang posisinuya absolud akan terangkat */
+
+
+p {
+    background-color: aqua;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    background-color: coral;
+}
