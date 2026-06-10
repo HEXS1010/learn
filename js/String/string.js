@@ -14,3 +14,35 @@ var error = "Can't find user";
 
 //atau menggunakan escape character "\"
 var error = 'Can\'t find user';
+
+// bisa double tanda kutip
+let text = 'hidup terus berjalan "jhon"'
+
+console.log(text);
+
+// \' nanti akan muncul ' satu tanda petik
+let a = "it\'s"
+console.log(a);
+
+// \" double tanda pentik ini uga agar mencegah salah kode 
+let b = "belajar terus hingga sukses \"john\""
+console.log(b);
+
+// \\ membuat garis miring
+let c = "panggilannya adalah udin\\ucup"
+console.log(c);
+
+// \b backspace, hapus c lalu ganti d
+console.log("ABC\bD");
+
+// \f form feed
+console.log("hello\fworld");
+
+// \v vertical tab
+console.log("hello\vworld");
+
+// \r carriage return
+console.log("hello\rworld");
+
+// \t tab
+console.log("budi\tumur:20")
