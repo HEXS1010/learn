@@ -20,6 +20,8 @@ let text = 'hidup terus berjalan "jhon"'
 
 console.log(text);
 
+
+// Esxape Sequence
 // \' nanti akan muncul ' satu tanda petik
 let a = "it\'s"
 console.log(a);
