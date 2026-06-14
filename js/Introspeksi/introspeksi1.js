@@ -45,3 +45,18 @@ function validateName(value) {
         //kode yang dieksekusi jika value benar bertipe string
     }
 }
+
+
+let data;
+
+if (typeof data === "number") {
+    console.log("Number");
+} else if (typeof data === "string") {
+    console.log("String");   
+} else if (typeof data === "boolean") {
+    console.log("Boolean");
+} else if (typeof data === "function") {
+    console.log("Function");
+} else {
+    console.log("object");
+}
