@@ -84,3 +84,14 @@ let angka = (Age < 18) ? "minor" : "adult";
 
 console.log(angka);
 // ini artinya dia akan mengeksekusi nilai true baru false, tanda tanya itu kita anggap sebagia pertanyaan baru di sebelah kananya itu jawabannya seperti itu
+
+let hewan = "anjing";
+let warna = "kuning"; 
+
+if (hewan === "bebong" && warna === "merah") {
+    console.log("jangan lewat");
+} else if (hewan === "bebong" && warna === "kuning" || hewan === "anjing" && warna === "merah" ) {
+    console.log("lewati aja");
+} else {
+    console.log("peduli apa gueh");
+}
