@@ -45,3 +45,9 @@ console.log("======Number======");
 console.log(`${Number("1")}`);
 console.log(`${Number("1.5")}`);
 console.log(`${Number("1.5kg")}`); // artinya dia ketat jika ada kg di belakang maka NaN
+
+console.log("======toString======");
+const x = 1;
+const y = 1;
+const total = a.toString() + b.toString();
+console.log(total);
