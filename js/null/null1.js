@@ -12,3 +12,24 @@ if (firstName === undefined) {
 } else {
     console.log(firstName);
 }
+
+// null coalescing operator
+// adalah null dan undefined
+// nullist coalescing operator (??) adalah operator yang mirip dengna ternary operator, yang membedakan adalah
+// pada kondisi, jika bernilai null atau undefined, baru value defaultnya diambil 
+
+// contoh tanpa nullist
+let parameter = null;
+
+let data = parameter;
+
+if (data === undefined || data === null) {
+    data = "nilai default";
+}
+
+console.log(data);
+
+// contoh dengan nullist
+data = parameter ?? "nilai default";
+
+console.log(data);
