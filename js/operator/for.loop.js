@@ -87,3 +87,21 @@ for (let i = 0; i <= 5; i++) {
   console.log(baris);
 }
 console.log("=========================");
+
+// for in
+const person = {
+  name: "hexs",
+  lastname: "project",
+  country: "indonesia",
+};
+
+for (const a in person) {
+  console.log(`${a} : ${person[a]}`);
+}
+
+// for of
+const names = ["budi", "bambang", "susonto"];
+
+for (const name of names) {
+  console.log(`${name}`);
+}
