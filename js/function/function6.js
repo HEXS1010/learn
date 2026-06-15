@@ -79,3 +79,33 @@ const array = [1, 2, 3, 4, 5, 6, 7];
 const search = 6;
 const found = isContains(array, search);
 console.log(`${found}`);
+
+// optional function parameter
+
+function person (name, age, country) {
+    console.log(name);
+    console.log(age);
+    console.log(country);
+}
+
+person();
+person("hexs");
+person("hexs", "project");
+person("hexs", "project", "anjay");
+
+console.log("================================");
+// default parameter
+function register(nama, gender = "unknown") {
+    console.log(nama);
+    console.log(gender);
+}
+
+register();
+console.log("==================");
+register("hexs");
+console.log("==================");
+register("hexs", "male");
+console.log("==================");
+register("hexs", undefined);
+console.log("==================");
+register("hexs", null);
