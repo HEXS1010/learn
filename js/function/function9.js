@@ -30,3 +30,17 @@ function fn_A() {
 
 fn_A();
 console.log(fn_B()); //hello
+
+
+// function dalam function (inner function)
+function outer() {
+    function inner () {
+        console.log("inner");
+    }
+
+    inner();
+    inner();
+}
+
+outer();
+// inner(); error karena tidak bisa di akses
