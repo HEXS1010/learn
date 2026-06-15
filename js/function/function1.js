@@ -1,4 +1,6 @@
-// function sederhana
+// function 
+// adalah blok kode program yang akan berjalan saat kita panggil 
+
 
 function sum(a,b) {
     //signature, nama = sum, parameter = a & b
