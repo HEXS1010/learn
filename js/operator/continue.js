@@ -52,3 +52,10 @@ console.log(text);
 //  i = 4 maka hasilnya (4)
 // knp i = 4 masih ikut ? karena ini continue artinya lewatkan bukan berhaenti. dan ini seterusnnya hingga outputnya 
 // 124124124124
+
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        continue;
+    }
+    console.log(`perulangan ganjil ${i} \n`);
+}

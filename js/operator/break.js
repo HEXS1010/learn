@@ -55,3 +55,14 @@ list: {
 
 console.log(kata);
 // artinya saat nama budi dan agus tercetak list akan di berhentikan jadi yang lain gk tercetak
+
+let counter = 1;
+
+while(true) {
+  console.log(`perulangan ke ${counter} \n`);
+  counter++;
+
+  if (counter > 10) {
+    break;
+  }
+}
