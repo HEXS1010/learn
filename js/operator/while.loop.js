@@ -8,6 +8,9 @@ const prompt = require("prompt-sync")();
 //   // code block to be executed
 // }
 
+// while loop adalah perulangan yang lebih sederhana dibandingkan for loop
+// di while loop, hanya terdapat kondisi perulangan, tanpa ada init statement dan post statement
+
 // contoh
 let i = 0;
 let text = "";
