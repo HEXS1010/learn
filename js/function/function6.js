@@ -37,3 +37,8 @@ add(fn_A, function() {
     return 2;
 });
 // function fn_B diganti oleh function anonim
+
+// function return value
+function sayHello(firstName, lastName) {
+    const say = 
+}
