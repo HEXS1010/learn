@@ -32,3 +32,19 @@ two();
 // console.log(twoVariable);
 
 // nested function scope
+function first() {
+    let firstVariable = "first";
+
+    function firstNested() {
+        console.log(firstVariable);
+    }
+
+    firstNested();
+}
+
+function second() {
+    let secondVariable = "second";
+}
+
+first();
+second();
