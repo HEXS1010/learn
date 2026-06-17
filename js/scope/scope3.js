@@ -34,3 +34,4 @@ const numbers = buatGanjil(100);
 for (const number of numbers) {
     console.log(number);
 }
+
