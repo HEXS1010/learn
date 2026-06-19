@@ -1,4 +1,4 @@
-// method di constructor function
+// parameter di constructor function
 
 function Person() {
     this.firstName = "";
