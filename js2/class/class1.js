@@ -12,3 +12,5 @@ class Person {
 
 const aswa = new Person("aswa");
 console.log(aswa);
+
+const hexs = new person("hexs");
