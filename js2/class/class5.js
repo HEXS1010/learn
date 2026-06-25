@@ -1,25 +1,30 @@
 // super constructor
 
 class Employee {
-  constructor(name) {
-    this.name = name;
+  constructor(firstName) {
+    this.firstName = firstName;
   }
 
   sayHello(name) {
-    console.log(`hello ${name}, My name is Employee ${this.name} `);
+    console.log(`hello ${name}, My name is Employee ${this.firstName} `);
   }
 }
 
 class Manager extends Employee {
+    constructor(firstName, lastName) {
+        super(firstName);
+        this.lastName = lastName;
+    }
+
   sayHello(name) {
-    console.log(`hello ${name}, My name is Manager ${this.name} `);
+    console.log(`hello ${name}, My name is Manager ${this.firstName} `);
   }
 }
 
 const aswa = new Employee("aswa");
 aswa.sayHello("hexs");
 
-const hexs = new Manager("hexs");
+const hexs = new Manager("hexs", "project");
 hexs.sayHello("aswa");
 
 console.log(aswa);
