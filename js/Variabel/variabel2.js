@@ -17,9 +17,9 @@ console.log(a - b); // 5
 console.log(a * b); // 50
 console.log(a / b); // 2
 console.log(a ** b); // 100000
-console.log(a % b); // 0        
+console.log(a % b); // 0
 
-// ada juga Operator Assignment  
+// ada juga Operator Assignment
 
 /*
     += (x = x + 1)
@@ -31,7 +31,7 @@ console.log(a % b); // 0
 
 let c = 20;
 
-console.log(c += 1);
-console.log(c -= 1);
-console.log(c *= 1);
-console.log(c /= 1);
+console.log((c += 1));
+console.log((c -= 1));
+console.log((c *= 1));
+console.log((c /= 1));
