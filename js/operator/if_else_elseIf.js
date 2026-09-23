@@ -25,6 +25,8 @@ if (nilaiUjian >= 90) {
     console.log("nilai A");
 } else if (nilaiUjian >= 80) {
     console.log("nilai B");
-} else {
+} else if (nilaiUjian >= 70) {
     console.log("nilai C");
+} else {
+    console.log("nilai D");
 }
