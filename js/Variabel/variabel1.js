@@ -8,7 +8,7 @@ Variabel bisa diisi dengan berbagai macam nilai seperti string
 
 // dalam javascript untuk yang sekarang lebih banya meggunakan let dan const abaikan var
 
-// let adalah variabel yang dimana dapat di ubah 
+// let adalah variabel yang dimana dapat di ubah (dan tidak bisa di akses di luar scope nya)
 let x = 5; 
 
 console.log(x);
@@ -17,7 +17,7 @@ x = 10; // mengubah nilai x menjadi 10
 
 console.log(x);
 
-// sekarang kita masuk ke const
+// sekarang kita masuk ke const (tidak bisa di ubah di luar scopenya)
 const y = 2
 console.log(y); 
 
