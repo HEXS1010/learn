@@ -1,25 +1,26 @@
-//dengan tanda kutip ganda
-var brand = "Honda";
-//dengan tanda kutip tunggal
-var brand = 'Honda';
+// string adalah tipe data yang berisi teks, string diapit oleh tanda petik tunggal atau ganda
 
-//angka yang dilingkupi tanda kutip berubah menjadi string (teks) jadi kita tidak bisa melakukan operasi matematika
-var n = '123456';
+// contoh 
+const nama = "budi"; // string dengan tanda petik ganda
+const nama2 = 'udin'; // string dengan tanda petik tunggal
 
-//penjumlahan string dengan number menyebabkan number dikonversi menjadi string hasilnya adalah penggabungan string
-var j = ''+123456; //hasilnya sama dengan string '123456'
+console.log(nama);
+console.log(nama2);
 
-//teks yang berisi tanda kutip tunggal harus diawali dan diakhiri dengan kutip ganda 
-var error = "Can't find user";
 
-//atau menggunakan escape character "\"
-var error = 'Can\'t find user';
+// kita juga bisa yang namanya menggunakan stiring tamplet
+// contoh 
 
-// bisa double tanda kutip
-let text = 'hidup terus berjalan "jhon"'
+const firstName = "budi";
+const lastName = "hardano";
+const fullName = `nama lengkap : ${firstName} ${lastName}`; // string tamplet menggunakan backtick (``)
 
-console.log(text);
+// knp kita pakai string tamplet ?, karena lebih mudah 
 
+const namaPanjang = firstName + " " + lastName;
+console.log(namaPanjang);
+
+// memang terlihat sama, tetapi jika datanya banyak akan panjang saat ketiknya 
 
 // Esxape Sequence
 // \' nanti akan muncul ' satu tanda petik
