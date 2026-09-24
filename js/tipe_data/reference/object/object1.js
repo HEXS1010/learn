@@ -50,3 +50,10 @@ console.table(orang);
 console.info(`nama : ${orang.nama}`);
 console.info(`umur : ${orang.umur}`);
 console.info(`negara : ${orang.negara}`);
+
+let obj1 = {Name: "aswa"}
+let obj2 = obj1;
+
+obj1.Name = "hexs";
+
+console.log(obj2);
