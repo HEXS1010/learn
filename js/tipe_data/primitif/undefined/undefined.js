@@ -9,9 +9,9 @@ console.log(nama, typeof nama); // output: undefined
 nama = "budi";
 console.log(nama, typeof nama); // output: budi
 
-let umur = undefined; 
+let umur = null; 
 
-if (umur === undefined && umur === null) {
+if (umur === undefined || umur === null) {
     console.log("umur belum diisi");
 } else {
     console.log("umur sudah diisi");
