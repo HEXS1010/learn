@@ -1,8 +1,14 @@
-//buat array 3 elemen
-var a = [1,2,3];
+/*
+  array adalah tipe data yang digunakan untuk menyimpan beberapa nilai dalam satu variabel
+  array ditulis dengan tanda kurung siku [] dan setiap nilai dipisahkan dengan koma
+ */
+// contoh
 
-//tampilkan data pada index pertama (0)
-console.log(a[0]);//output: 1
+const Name = ["budi", "udin", "joko", "susi"];
 
-//tampilkan data pada index terakhir (2)
-console.log(a[2]);//output: 3
+// dalam array kita dapat menambahkan nilai baru, menghapus nilai, dan mengubah nilai yang sudah ada
+
+Name.push("andi"); // menambahkan nilai baru ke dalam array (setiap kita menambahkan nilai baru, akan berada di belakang/akhir)
+console.log(Name);
+Name.pop(); // menghapus nilai terakhir dari array (yang dihapus ini adalah andi yang kita tambahkan tadi)
+console.log(Name);    
