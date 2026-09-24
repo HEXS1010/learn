@@ -1,8 +1,14 @@
-var n = 1;
-var mass = 1.5;
+// number adalah tipe data primitif yang digunakan untuk merepresentasikan angka.
+/*
+    bisa dalan bentuk bilangan bulat (integer) atau 
+    bilangan desimal (floating point)
+*/
 
-//oktal berawalan 0
-var o = 0o377;
+// contoh
 
-//heksadesimal berawalan 0x
-var color = 0xFFFFFF;
+const age = 20; // bilangan bulat
+const beratBadan = 55.5; // bilangan desimal 
+
+console.log(age);
+console.log(beratBadan);
+
