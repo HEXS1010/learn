@@ -5,26 +5,25 @@
   brand (key)
   "honda" (value)
 */
-var car = {};
+const car = {};
 
 //notasi objek, lebih disukai
 
 //setiap properti dipisahkan oleh koma & key-value dipisahkan //oleh titik-dua.
 
-//Tidak boleh menggunakan keyword var
-var myCar = {
-  brand: "Honda",
-  year: 2011,
-};
+const car2 = {
+  brand: "BMW",
+  color: "white",
+  year: 2019,
+  price: 100000000
+}
 
-//cara yg sama dengan sintaks associative-array
-var yourCar = {};
-yourCar["brand"] = "Toyota";
-yourCar["year"] = 2012;
+const output = car2
 
-// sama seperti associative-array, kita mengakses properti dengan key dalam kurung siku atau dot-notation
-console.log(yourCar.brand);
-console.log(yourCar['brand']);
+console.table(output);
+console.log(output, typeof output);
+
+
 
 const person = {};
 
