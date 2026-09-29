@@ -17,10 +17,12 @@ console.log(x); // 510 string
 let y = "5" - 10;
 let z = "5" * 10;
 let r = "5" / 10;
+let p = "abc" - "20"
 
 console.log(y, typeof y); // -5 number
 console.log(z, typeof z); // 50 number
 console.log(r, typeof r); // 0.5 number
+console.log(p, typeof p); // NaN number kecuali di tambah
 
 
 /*
