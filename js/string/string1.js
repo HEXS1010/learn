@@ -17,3 +17,17 @@ console.log(buah[3]); // l
 
 
 // kita juga bisa mengetahui panjang kata dalam string
+let txt = "hello";
+
+console.log(txt.length);
+
+// kalau mau textnya huruf besar semua
+let txt2 = "anjay";
+
+console.log(txt2.toUpperCase());
+console.log(txt2.toLowerCase());
+
+// kita juga bisa menghapus spasi dalam string
+let txt3 = "             Anjay Mabar            ";
+
+console.log(txt3.trim());
