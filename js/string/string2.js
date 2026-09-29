@@ -23,5 +23,12 @@ console.log(txt2);
 
 // contoh selanjutnya
 
-let txt3 = txt.slice(4, 10); 
+let txt3 = txt.substring(4, 10); 
 console.log(txt3);
+
+// mau ganti string lama ke yang baru, tapi ini hanya menerima 2 parameter
+let oldText = "halo budi";
+
+let newtext = oldText.replace("halo", "yayan");
+
+console.log(newtext);
