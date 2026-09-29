@@ -22,11 +22,3 @@ console.log(x % y);
 
 
 
-
-// catatan
-// += | x += y | x = x + y
-// -= | x -= y | x = x - y
-// *= | x *= y | x = x * y
-// /= | x /= y | x = x / y
-// %= | x %= y | x = x % y
-// **= | x **= y | x = x ** y
